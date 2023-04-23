@@ -44,7 +44,7 @@ yarn install
 
 ```sh
 cd llama.cpp
-make chat
+make
 ```
 
 ## Building from Source (Windows)
@@ -53,7 +53,7 @@ make chat
 - Run the following commands one by one:
 
 ```ps1
-cd alpaca.cpp
+cd llama.cpp
 cmake .
 cmake --build . --config Release
 ```
